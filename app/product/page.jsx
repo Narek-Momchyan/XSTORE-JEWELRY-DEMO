@@ -1,5 +1,7 @@
 import React from 'react';
+export const dynamic = "force-dynamic";
 import axios from "@/lib/api";
+
 import { getCurrentLang } from '@/lib/Lang';
 import Product from '@/components/product';
 import Sidebar from '@/components/product/Sidebar';

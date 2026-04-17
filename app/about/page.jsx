@@ -1,5 +1,7 @@
 import axios from "@/lib/api";
+export const dynamic = "force-dynamic";
 import { getCurrentLang } from "@/lib/Lang";
+
 import AboutHero from "@/components/AboutPage/AboutHero";
 import AboutStats from "@/components/AboutPage/AboutStats";
 import AboutSections from "@/components/AboutPage/AboutSections"; // <--- ՆՈՐԸ

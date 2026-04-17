@@ -1,4 +1,6 @@
 import styles from "./contact.module.css";
+export const dynamic = "force-dynamic";
+
 import Form from "./Forma";
 import AnimatedContactLeft from "./AnimatedContactLeft";
 import axios from '@/lib/api';

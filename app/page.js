@@ -1,5 +1,7 @@
 import { getCurrentLang } from "@/lib/Lang";
+export const dynamic = "force-dynamic";
 import axios from "@/lib/api";
+
 import HomeSlider from "@/components/homeSlider";
 import Types from "@/components/HomePage/types";
 import InfoSection from "@/components/HomePage/info";

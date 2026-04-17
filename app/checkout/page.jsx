@@ -1,4 +1,6 @@
 import CheckoutClient from '@/components/checkout/CheckoutClient';
+export const dynamic = "force-dynamic";
+
 import { getCurrentLang } from '@/lib/Lang';
 
 export const metadata = {
