@@ -1,0 +1,105 @@
+.footer {
+    background-color: var(--main-bg); /* Սև ֆոն */
+    color: #fff;
+    padding: 80px 0 20px 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.brandSection, .linksSection, .contactSection {
+    flex: 1;
+    min-width: 250px;
+}
+
+.logo {
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.description {
+    color: #888;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.socials a {
+    color: #b5a083; /* Ոսկեգույն */
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.socials a:hover {
+    color: #fff;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    margin-bottom: 12px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #888;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.list a:hover {
+    color: #fff;
+}
+
+.contactSection p {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.bottomBar {
+    border-top: 1px solid #222;
+    margin-top: 60px;
+    padding-top: 30px;
+    text-align: center;
+    color: #555;
+    font-size: 12px;
+}
+
+/* Ադապտիվություն */
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .socials {
+        justify-content: center;
+    }
+}

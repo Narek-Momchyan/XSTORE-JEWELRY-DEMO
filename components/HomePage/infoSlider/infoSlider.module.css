@@ -1,0 +1,179 @@
+.row {
+  max-width: 1500px;
+  margin: 120px auto;
+  padding: 0 60px; 
+  text-align: center;
+}
+
+.topTitle {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #888;
+}
+
+.mainTitle {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 20px 0 70px;
+  color: #1a1a1a;
+}
+
+.sliderMainContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.sliderWindow {
+  width: 100%;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.slide {
+  min-width: 28%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.productCard {
+  border: 1px solid #ededed;
+  background: #fff;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.productCard:hover {
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.imageBox {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1 / 1.3;
+}
+
+.productImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.6s ease, transform 1s ease;
+}
+
+.secondaryImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.productCard:hover .primaryImg {
+  opacity: 0;
+}
+
+.productCard:hover .secondaryImg {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+
+.productCard:hover .overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.iconBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #222;
+  transition: 0.3s ease;
+}
+
+.iconBtn:hover {
+  color: #d4af37;
+  transform: translateY(-5px);
+}
+
+.info {
+  padding: 30px 15px;
+}
+
+.productName {
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.productMaterial {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 20px;
+  color: #111;
+}
+
+.navBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border: 1px solid #eee;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  transition: 0.3s;
+  z-index: 10;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.prevBtn {
+  left: -30px;
+}
+
+.nextBtn {
+  right: -30px; 
+}
+
+.navBtn:hover {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+.loader {
+  padding: 150px;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 1550px) {
+  .prevBtn { left: 10px; }
+  .nextBtn { right: 10px; }
+}
+
+@media (max-width: 1024px) {
+  .slide { min-width: 50%; }
+}
+
+@media (max-width: 600px) {
+  .slide { min-width: 100%; }
+}

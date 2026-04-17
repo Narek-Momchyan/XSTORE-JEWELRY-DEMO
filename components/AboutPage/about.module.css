@@ -1,0 +1,499 @@
+
+
+ /* // ========================================================== */ 
+.aboutSection {
+  width: 100%;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; 
+  font-family: 'Open Sans', sans-serif;
+  
+  background-image: url('/images/info/Image2-2.webp'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.aboutSection::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+}
+
+.hero {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  padding: 80px 60px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--border-color);
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.03);
+  margin: 0 auto;
+    margin-top: 110px;
+}
+
+.heroSubtitle {
+  color: var(--gold-hover);
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.heroTitle, .teamTitle, .testimonialsTitle, .sectionTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--main-bg);
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.heroTitle::after, .teamTitle::after, .testimonialsTitle::after, .sectionTitle::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  background-color: var(--main-bg);
+  margin: 20px auto 0 auto;
+}
+
+.heroText {
+  max-width: 650px;
+  margin: 0 auto 30px auto;
+  color: var(--text-gray);
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.heroButton {
+  display: inline-block;
+  padding: 14px 42px;
+  border: 1px solid var(--main-bg);
+  color: var(--main-bg);
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.heroButton:hover {
+  background-color: var(--main-bg);
+  color: var(--white);
+}
+
+/* ==========================================================
+
+   ========================================================== */
+.statsWrapper {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 30px;
+  padding: 60px 20px 20px 20px;
+  margin-top: 40px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+}
+
+.statItemNumber {
+  font-size: 46px;
+  font-family: 'Playfair Display', serif;
+  color: var(--gold-hover);
+  margin-bottom: 10px;
+}
+
+.statItemLabel {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: var(--main-bg);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* ==========================================================
+
+   ========================================================== */
+.sectionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0px; 
+  padding: 80px 0; 
+}
+
+.sectionWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px; 
+  padding: 0 20px; 
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.textContent {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.sectionText {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--text-gray);
+  margin-bottom: 20px;
+}
+
+.coreQuote {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444444;
+  margin-bottom: 20px;
+}
+
+.coreSignature {
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--text-gray);
+  margin-bottom: 30px;
+}
+
+.imageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionImage {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.imageLeft .textContent {
+  order: 2;
+}
+
+.imageLeft .imageContainer {
+  order: 1;
+}
+
+/* ==========================================================
+
+   ========================================================== */
+.teamWrapper {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.teamHeading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.teamHeading .heroSubtitle {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.teamTitle {
+  font-size: 28px;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.teamCard {
+  text-align: center;
+}
+
+.teamImageWrapper {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 18px;
+  border-radius: 4px;
+}
+
+.teamImage {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  background: #f5f5f5;
+  transition: transform 0.5s ease;
+}
+
+.teamSocials {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.teamImageWrapper:hover .teamImage {
+  transform: scale(1.05);
+}
+
+.teamImageWrapper:hover .teamSocials {
+  opacity: 1;
+}
+
+.teamSocials a {
+  background: white;
+  color: var(--main-bg);
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.teamName {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: var(--main-bg);
+}
+
+.teamRole {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-gray);
+}
+
+/* ==========================================================
+
+   ========================================================== */
+.testimonialsWrapper {
+  padding: 80px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.testimonialsTitle {
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.testimonialSlider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.testimonialNav {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--text-gray);
+  transition: color 0.3s;
+}
+
+.testimonialNav:hover {
+  color: var(--main-bg);
+}
+
+.testimonialCard {
+  max-width: 700px;
+  padding: 0 30px;
+}
+
+.testimonialAvatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  object-fit: cover;
+}
+
+.testimonialRating {
+  color: #f5c046;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.testimonialText {
+  font-size: 16px;
+  font-style: italic;
+  color: var(--text-gray);
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.testimonialName {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--main-bg);
+  margin-bottom: 5px;
+}
+
+.testimonialCountry {
+  font-size: 13px;
+  color: var(--text-gray);
+}
+
+/* ==========================================================
+   ========================================================== */
+.infoCardsWrapper {
+  max-width: 1200px;
+  margin: 60px auto 20px auto;
+  padding: 0 20px;
+}
+
+.infoCardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.infoCard {
+  background: white;
+  padding: 40px 30px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  transition: box-shadow 0.3s ease;
+}
+
+.infoCard:hover {
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.infoCardIcon {
+  font-size: 32px;
+  color: var(--main-bg);
+  margin-bottom: 20px;
+}
+
+.infoCardTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--main-bg);
+  margin-bottom: 20px;
+}
+
+.infoCardText {
+  color: var(--text-gray);
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+/* ==========================================================
+
+   ========================================================== */
+@media (max-width: 800px) {
+  .statsWrapper {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px 20px;
+  }
+
+  .sectionsContainer {
+    gap: 40px; 
+    padding: 60px 0;
+  }
+
+  .sectionWrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 0 20px;
+  }
+
+  .textContent {
+    padding: 0;
+  }
+  
+  .sectionImage {
+    height: 400px;
+  }
+
+  .sectionWrapper .imageContainer {
+    order: -1 !important; 
+  }
+  
+  .sectionWrapper .textContent {
+    order: 2 !important;
+  }
+
+  .teamGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px 20px;
+  }
+
+  .infoCardsGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .heroTitle, .sectionTitle, .teamTitle, .testimonialsTitle {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .statsWrapper {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .statsWrapper > div:last-child {
+    grid-column: span 2; 
+  }
+
+  .teamGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonialSlider {
+    flex-direction: column;
+  }
+
+  .testimonialNav {
+    display: none;
+  }
+
+  .heroTitle, .sectionTitle, .teamTitle, .testimonialsTitle {
+    font-size: 22px;
+  }
+
+  .statItemNumber {
+    font-size: 36px;
+  }
+}

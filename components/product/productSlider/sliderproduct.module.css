@@ -1,0 +1,134 @@
+.sliderSection {
+  padding: 80px 0;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 200px;
+  background-color: var(--white);
+}
+
+.textHeader {
+  text-align: center;
+}
+
+.titleLine {
+  width: 50px;
+  height: 2px;
+  background: var(--main-bg);
+  margin: 20px auto;
+}
+
+.catCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+  transition: all 0.4s ease;
+  background: var(--white);
+}
+
+.imgContainer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: var(--light-gray);
+  
+}
+
+.imgContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; 
+  transition: transform 0.6s ease;
+}
+
+.catCard:hover .imgContainer img {
+  transform: scale(1.1);
+}
+
+.catInfo {
+  background-color: var(--main-bg);
+  padding: 10px 10px;
+  color: var(--white);
+  text-align: center;
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.catInfo h3 {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  min-height: 40px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catInfo p {
+  font-size: 20px;
+  color: var(--gold-hover);
+  margin: 0;
+  opacity: 0.9;
+}
+
+.mySwiper :global(.swiper-button-next),
+.mySwiper :global(.swiper-button-prev) {
+  color: var(--main-bg) !important;
+  background: var(--white);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.mySwiper :global(.swiper-button-next::after),
+.mySwiper :global(.swiper-button-prev::after) {
+  font-size: 16px;
+  font-weight: bold;
+}
+/* 800px էկրանների համար (Պլանշետ) */
+@media (max-width: 800px) {
+  .imgContainer {
+    height: 280px; /* Փոքրացնում ենք բարձրությունը */
+  }
+  
+  .mainTitle {
+    font-size: 22px; /* Փոքրացնում ենք գլխավոր վերնագիրը */
+  }
+
+  .catInfo h3 {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 400px) {
+  .imgContainer {
+    height: 220px; 
+  }
+
+  .mainTitle {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+
+  .subTitle {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+
+  .catInfo {
+    padding: 15px 10px;
+  }
+  
+  .mySwiper :global(.swiper-button-next),
+  .mySwiper :global(.swiper-button-prev) {
+    display: none; 
+  }
+}

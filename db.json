@@ -1,0 +1,1601 @@
+{
+  "logo": {
+    "title": "XSTORE",
+    "title2": "JEWELRY DEMO",
+    "logo_route": "/"
+  },
+  "users": [
+    {
+      "id": "a13a",
+      "name": "Narek",
+      "email": "narekmomchyan80@gmail.com",
+      "password": "narek2004"
+    }
+  ],
+  "registr": [
+    {
+      "id": "1",
+      "lang": "en",
+      "emailplachorder": "Email Address",
+      "nameplachorder": "Full Name",
+      "passwordplachorder": "Password",
+      "Signupbutton": "Signup",
+      "Forgotpassword": "Forgot password?",
+      "Loginpassword": "Login"
+    },
+    {
+      "id": "2",
+      "lang": "am",
+      "emailplachorder": "Էլեկտրոնային հասցե",
+      "nameplachorder": "Անուն Ազգանուն",
+      "passwordplachorder": "Գաղտնաբառ",
+      "Signupbutton": "Գրանցվել",
+      "Forgotpassword": "Մոռացե՞լ եք գաղտնաբառը",
+      "Loginpassword": "Մուտք"
+    }
+  ],
+  "navbar": [
+    {
+      "id": "1",
+      "lang": "en",
+      "label": "Home",
+      "route": "/"
+    },
+    {
+      "id": "2",
+      "lang": "en",
+      "label": "Our Shop",
+      "route": "/product"
+    },
+    {
+      "id": "3",
+      "lang": "en",
+      "label": "Contact",
+      "route": "/contact"
+    },
+    {
+      "id": "4",
+      "lang": "en",
+      "label": "About us",
+      "route": "/about"
+    },
+    {
+      "id": "5",
+      "lang": "am",
+      "label": "Գլխավոր",
+      "route": "/"
+    },
+    {
+      "id": "6",
+      "lang": "am",
+      "label": "ապրանքներ",
+      "route": "/product"
+    },
+    {
+      "id": "7",
+      "lang": "am",
+      "label": "Կապ",
+      "route": "/contact"
+    },
+    {
+      "id": "8",
+      "lang": "am",
+      "label": "Մեր մասին",
+      "route": "/about"
+    }
+  ],
+  "languages": [
+    {
+      "id": "1",
+      "code": "en",
+      "img_route": "/images/Lang/globus.png"
+    },
+    {
+      "id": "2",
+      "code": "am",
+      "img_route": "/images/Lang/globus.png"
+    }
+  ],
+  "homeslider": [
+    {
+      "id": "1",
+      "lang": "en",
+      "subtitle": "ADORN YOUR BEAUTY",
+      "title": "A WORLD OF ELEGANT ACCESSORIES",
+      "button_text": "SHOP NOW",
+      "href": "/",
+      "image": "/images/sliderimg/slider1.jpeg"
+    },
+    {
+      "id": "2",
+      "lang": "en",
+      "subtitle": "LUXURY COLLECTION",
+      "title": "SHINE BRIGHT WITH DIAMONDS",
+      "button_text": "DISCOVER",
+      "href": "/product",
+      "image": "/images/sliderimg/slider-2-scaled.jpeg"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "subtitle": "ԸՆԴԳԾԵՔ ՁԵՐ ԳԵՂԵՑԿՈՒԹՅՈՒՆԸ",
+      "title": "ՆՐԲԱՃԱՇԱԿ ԱՔՍԵՍՈՒԱՐՆԵՐԻ ԱՇԽԱՐՀ",
+      "button_text": "ԳՆԵԼ ՀԻՄԱ",
+      "href": "/",
+      "image": "/images/sliderimg/slider1.jpeg"
+    },
+    {
+      "id": "4",
+      "lang": "am",
+      "subtitle": "ՇՔԵՂ ՀԱՎԱՔԱԾՈՒ",
+      "title": "ՓԱՅԼԵՔ ԱԴԱՄԱՆԴՆԵՐԻ ՀԵՏ ՄԻԱՍԻՆ",
+      "button_text": "ԲԱՑԱՀԱՅՏԵԼ",
+      "href": "/product",
+      "image": "/images/sliderimg/slider-2-scaled.jpeg"
+    }
+  ],
+  "product": [
+    {
+      "id": "1",
+      "lang": "en",
+      "title": "SHINING EARRINGS",
+      "price": "$230.00",
+      "material": "Sterling Silver & Diamond",
+      "brand": "Almast",
+      "category": "Earrings",
+      "rating": 4.8,
+      "reviewCount": 12,
+      "views": 35,
+      "description": "Jewelry is elegantly subversive and captures the spirit of the women.",
+      "images": [
+        "/images/product/p-image1.jpg",
+        "/images/product/p-image2.jpg"
+      ],
+      "oldPrice": "$276.00",
+      "discount": "SALE"
+    },
+    {
+      "id": "2",
+      "lang": "en",
+      "title": "AN UNSURPASSED SILVER RING",
+      "price": "$310.00",
+      "material": "Sterling Silver & Diamond",
+      "brand": "Gord",
+      "category": "Rings",
+      "rating": 3.5,
+      "reviewCount": 8,
+      "views": 24,
+      "description": "Add a touch of sophistication to your look with our ring.",
+      "images": [
+        "/images/product/p-image2.1.jpg",
+        "/images/product/p-image2.2.jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "lang": "en",
+      "title": "10K YELLOW GOLD",
+      "price": "$99.99",
+      "material": "10K Yellow Gold & Diamond",
+      "brand": "SilverDaimond",
+      "category": "Rings",
+      "rating": 4.2,
+      "reviewCount": 5,
+      "views": 29,
+      "description": "A charming and feminine ring made of yellow gold.",
+      "images": [
+        "/images/product/p-image3.1.jpg",
+        "/images/product/p-image3.2.jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "lang": "en",
+      "title": "CUBIC SOLITAIRE PENDANT",
+      "price": "$190.00",
+      "material": "Sterling Silver & Gold Plated",
+      "brand": "Almast",
+      "category": "Necklaces",
+      "rating": 3.9,
+      "reviewCount": 3,
+      "views": 20,
+      "description": "Elegant and timeless solitaire pendant.",
+      "images": [
+        "/images/product/p-image4.1.jpg",
+        "/images/product/p-image4.2.jpg"
+      ],
+      "oldPrice": "$228.00",
+      "discount": "SALE"
+    },
+    {
+      "id": "5",
+      "lang": "en",
+      "title": "CITERNA LADIES EARRINGS",
+      "price": "$160.00",
+      "material": "Sterling Silver",
+      "brand": "Gord",
+      "category": "Earrings",
+      "rating": 4.5,
+      "reviewCount": 2,
+      "views": 42,
+      "description": "Charming and feminine earrings for ladies.",
+      "images": [
+        "/images/product/p-image5.1.jpg",
+        "/images/product/p-image5.2.jpg"
+      ]
+    },
+    {
+      "id": "6",
+      "lang": "en",
+      "title": "CUFF BRACELET",
+      "price": "$340.30",
+      "material": "Sterling Silver & Diamond",
+      "brand": "SilverDaimond",
+      "category": "Bracelets",
+      "rating": 5,
+      "reviewCount": 15,
+      "views": 48,
+      "description": "A touch of sophistication with our cuff bracelet.",
+      "images": [
+        "/images/product/p-image6.1.jpg",
+        "/images/product/p-image6.2.jpg"
+      ]
+    },
+    {
+      "id": "7",
+      "lang": "en",
+      "title": "DELICATE BIRTHSTONE STUDS",
+      "price": "$500.00",
+      "material": "Sterling Silver & Diamond",
+      "brand": "Almast",
+      "category": "Earrings",
+      "rating": 3.2,
+      "reviewCount": 4,
+      "views": 32,
+      "description": "Exquisite earrings with birthstone studs.",
+      "images": [
+        "/images/product/p-image7.1.jpg",
+        "/images/product/p-image7.2.jpg"
+      ],
+      "oldPrice": "$600.00",
+      "discount": "SALE"
+    },
+    {
+      "id": "8",
+      "lang": "en",
+      "title": "DELICATE EARRINGS",
+      "price": "$149.99",
+      "material": "Diamond & Sterling Silver",
+      "brand": "Gord",
+      "category": "Earrings",
+      "rating": 4.7,
+      "reviewCount": 9,
+      "views": 34,
+      "description": "Delicate gold coulomb adorned with a tiny diamond.",
+      "images": [
+        "/images/product/p-image8.1.jpg",
+        "/images/product/p-image8.2.jpg"
+      ]
+    },
+    {
+      "id": "9",
+      "lang": "en",
+      "title": "DESIGNS STERLING SILVER",
+      "price": "$2,030.90",
+      "material": "18K Gold & Diamond",
+      "brand": "SilverDaimond",
+      "category": "Necklaces",
+      "rating": 5,
+      "reviewCount": 21,
+      "views": 49,
+      "description": "Elegant jewelry designs in sterling silver.",
+      "images": [
+        "/images/product/p-image9.1.jpg",
+        "/images/product/p-image9.2.jpg"
+      ]
+    },
+    {
+      "id": "10",
+      "lang": "en",
+      "title": "DIAMOND ACCENT SOLITAIRE",
+      "price": "$390.10",
+      "material": "Sterling Silver & Diamond",
+      "brand": "Almast",
+      "category": "Rings",
+      "rating": 4,
+      "reviewCount": 2,
+      "views": 42,
+      "description": "Stunning ring featuring a large gemstone.",
+      "images": [
+        "/images/product/p-image10.1.jpg",
+        "/images/product/p-image10.2.jpg"
+      ],
+      "oldPrice": "$468.12",
+      "discount": "SALE"
+    },
+    {
+      "id": "11",
+      "lang": "en",
+      "title": "DIAMOND RING",
+      "price": "$280.60",
+      "material": "Rose Gold & Sterling Silver",
+      "brand": "Gord",
+      "category": "Rings",
+      "rating": 4.1,
+      "reviewCount": 6,
+      "views": 31,
+      "description": "Elegantly subversive diamond ring.",
+      "images": [
+        "/images/product/p-image11.1.jpg",
+        "/images/product/p-image11.2.jpg"
+      ]
+    },
+    {
+      "id": "12",
+      "lang": "en",
+      "title": "DIVINA GOLD DIAMOND",
+      "price": "$299.99",
+      "material": "Sterling Silver & Rose Gold Plated",
+      "brand": "SilverDaimond",
+      "category": "Rings",
+      "rating": 3.8,
+      "reviewCount": 7,
+      "views": 36,
+      "description": "Unique ring made of 925 sterling silver.",
+      "images": [
+        "/images/product/p-image12.1.jpg",
+        "/images/product/p-image12.2.jpg"
+      ]
+    },
+    {
+      "id": "13",
+      "lang": "en",
+      "title": "ELEGANT DIAMOND EARRINGS",
+      "price": "$1,020.00",
+      "material": "14K White Gold & Diamond",
+      "brand": "Almast",
+      "category": "Earrings",
+      "rating": 5,
+      "reviewCount": 18,
+      "views": 13,
+      "description": "Elegant diamond earrings for special occasions.",
+      "images": [
+        "/images/product/p-image13.1.jpg",
+        "/images/product/p-image13.2.jpg"
+      ],
+      "oldPrice": "$1224.00",
+      "discount": "SALE"
+    },
+    {
+      "id": "14",
+      "lang": "en",
+      "title": "ELEGANT RING",
+      "price": "$120.00",
+      "material": "Sterling Silver & Yellow Gold Plated",
+      "brand": "Gord",
+      "category": "Rings",
+      "rating": 4.3,
+      "reviewCount": 4,
+      "views": 17,
+      "description": "Captures the spirit of the women.",
+      "images": [
+        "/images/product/p-image14.1.jpg",
+        "/images/product/p-image14.2.jpg"
+      ]
+    },
+    {
+      "id": "15",
+      "lang": "en",
+      "title": "EXQUISITE RING",
+      "price": "$410.00",
+      "material": "14K Yellow Gold & Diamond",
+      "brand": "SilverDaimond",
+      "category": "Rings",
+      "rating": 4.9,
+      "reviewCount": 11,
+      "views": 12,
+      "description": "Exquisite gold ring with diamond.",
+      "images": [
+        "/images/product/p-image15.1.jpg",
+        "/images/product/p-image15.2.jpg"
+      ]
+    },
+    {
+      "id": "16",
+      "lang": "en",
+      "title": "HAVEN PARK EARRINGS",
+      "price": "$310.40",
+      "material": "Sterling Silver & Yellow Gold Plated",
+      "brand": "Almast",
+      "category": "Earrings",
+      "rating": 3.6,
+      "reviewCount": 5,
+      "views": 29,
+      "description": "Elegant earrings for daily wear.",
+      "images": [
+        "/images/product/p-image16.1.jpg",
+        "/images/product/p-image16.2.jpg"
+      ],
+      "oldPrice": "$372.48",
+      "discount": "SALE"
+    },
+    {
+      "id": "17",
+      "lang": "en",
+      "title": "MAGICAL CARNATION EARRINGS",
+      "price": "$199.99",
+      "material": "Yellow Gold & Diamond",
+      "brand": "Gord",
+      "category": "Earrings",
+      "rating": 5,
+      "reviewCount": 25,
+      "views": 14,
+      "description": "Magical earrings for a magical look.",
+      "images": [
+        "/images/product/p-image17.1.jpg",
+        "/images/product/p-image17.2.jpg"
+      ]
+    },
+    {
+      "id": "18",
+      "lang": "en",
+      "title": "MINIMALIST GOLD HOOPS",
+      "price": "$289.99",
+      "material": "Sterling Silver & Yellow Gold Plated",
+      "brand": "SilverDaimond",
+      "category": "Earrings",
+      "rating": 4.4,
+      "reviewCount": 8,
+      "views": 29,
+      "description": "Minimalist design for modern women.",
+      "images": [
+        "/images/product/p-image18.1.jpg",
+        "/images/product/p-image18.2.jpg"
+      ]
+    },
+    {
+      "id": "19",
+      "lang": "en",
+      "title": "MONDEVIO STERLING SILVER",
+      "price": "$490.20",
+      "material": "Sterling Silver & Rose Gold Plated",
+      "brand": "Almast",
+      "category": "Earrings",
+      "rating": 4,
+      "reviewCount": 2,
+      "views": 24,
+      "description": "High quality sterling silver earrings.",
+      "images": [
+        "/images/product/p-image19.1.jpg",
+        "/images/product/p-image19.2.jpg"
+      ],
+      "oldPrice": "$588.24",
+      "discount": "SALE"
+    },
+    {
+      "id": "20",
+      "lang": "en",
+      "title": "SHINING EARRINGS V2",
+      "price": "$230.00",
+      "material": "Sterling Silver & Yellow Gold Plated",
+      "brand": "Gord",
+      "category": "Earrings",
+      "rating": 3.4,
+      "reviewCount": 10,
+      "views": 36,
+      "description": "Beautiful shining earrings.",
+      "images": [
+        "/images/product/p-image20.1.jpg",
+        "/images/product/p-image20.2.jpg"
+      ]
+    },
+    {
+      "id": "21",
+      "lang": "en",
+      "title": "STATEMENT GEMSTONE RING",
+      "price": "$129.00",
+      "material": "Sterling Silver & Yellow Gold Plated",
+      "brand": "SilverDaimond",
+      "category": "Rings",
+      "rating": 4.6,
+      "reviewCount": 14,
+      "views": 37,
+      "description": "Statement ring for a bold look.",
+      "images": [
+        "/images/product/p-image21.1.jpg",
+        "/images/product/p-image21.2.jpg"
+      ]
+    },
+    {
+      "id": "22",
+      "lang": "en",
+      "title": "YELLOW DIAMOND RING",
+      "price": "$189.99",
+      "material": "Sterling Silver & Rose Gold Plated",
+      "brand": "Almast",
+      "category": "Rings",
+      "rating": 5,
+      "reviewCount": 30,
+      "views": 34,
+      "description": "Exquisite yellow diamond ring.",
+      "images": [
+        "/images/product/p-image22.1.jpg",
+        "/images/product/p-image22.2.jpg"
+      ],
+      "oldPrice": "$227.99",
+      "discount": "SALE"
+    },
+    {
+      "id": "23",
+      "lang": "am",
+      "title": "ՓԱՅԼՈՒՆ ԱԿԱՆՋՕՂԵՐ",
+      "price": "$230.00",
+      "material": "Արծաթ և Ադամանդ",
+      "brand": "Almast",
+      "category": "Ականջօղեր",
+      "rating": 4.8,
+      "reviewCount": 12,
+      "views": 35,
+      "description": "Զարդեր, որոնք նրբագեղորեն ընդգծում են կնոջ ոգին:",
+      "images": [
+        "/images/product/p-image1.jpg",
+        "/images/product/p-image2.jpg"
+      ]
+    },
+    {
+      "id": "24",
+      "lang": "am",
+      "title": "ԱՆԳԵՐԱԶԱՆՑԵԼԻ ԱՐԾԱԹԵ ՄԱՏԱՆԻ",
+      "price": "$310.00",
+      "material": "Արծաթ և Ադամանդ",
+      "brand": "Gord",
+      "category": "Մատանիներ",
+      "rating": 3.5,
+      "reviewCount": 8,
+      "views": 24,
+      "description": "Հաղորդեք նրբագեղություն Ձեր տեսքին մեր մատանու միջոցով:",
+      "images": [
+        "/images/product/p-image2.1.jpg",
+        "/images/product/p-image2.2.jpg"
+      ]
+    },
+    {
+      "id": "25",
+      "lang": "am",
+      "title": "10Կ ԴԵՂԻՆ ՈՍԿԻ",
+      "price": "$99.99",
+      "material": "10Կ Դեղին Ոսկի և Ադամանդ",
+      "brand": "SilverDaimond",
+      "category": "Մատանիներ",
+      "rating": 4.2,
+      "reviewCount": 5,
+      "views": 29,
+      "description": "Հմայիչ և կանացի մատանի՝ պատրաստված դեղին ոսկուց:",
+      "images": [
+        "/images/product/p-image3.1.jpg",
+        "/images/product/p-image3.2.jpg"
+      ],
+      "oldPrice": "$119.99",
+      "discount": "SALE"
+    },
+    {
+      "id": "26",
+      "lang": "am",
+      "title": "ԿՈՒԲԻԿ ՍՈԼԻՏԵՐ ԿԱԽԱԶԱՐԴ",
+      "price": "$190.00",
+      "material": "Արծաթ և Ոսկեպատ",
+      "brand": "Almast",
+      "category": "Վզնոցներ",
+      "rating": 3.9,
+      "reviewCount": 3,
+      "views": 20,
+      "description": "Նրբագեղ և անժամանակ կախազարդ:",
+      "images": [
+        "/images/product/p-image4.1.jpg",
+        "/images/product/p-image4.2.jpg"
+      ]
+    },
+    {
+      "id": "27",
+      "lang": "am",
+      "title": "CITERNA ԿԱՆԱՑԻ ԱԿԱՆՋՕՂԵՐ",
+      "price": "$160.00",
+      "material": "Արծաթ",
+      "brand": "Gord",
+      "category": "Ականջօղեր",
+      "rating": 4.5,
+      "reviewCount": 2,
+      "views": 42,
+      "description": "Հմայիչ և կանացի ականջօղեր:",
+      "images": [
+        "/images/product/p-image5.1.jpg",
+        "/images/product/p-image5.2.jpg"
+      ]
+    },
+    {
+      "id": "28",
+      "lang": "am",
+      "title": "ԱՊԱՐԱՆՋԱՆ",
+      "price": "$340.30",
+      "material": "Արծաթ և Ադամանդ",
+      "brand": "SilverDaimond",
+      "category": "Ապարանջաններ",
+      "rating": 5,
+      "reviewCount": 15,
+      "views": 48,
+      "description": "Նրբագեղ ապարանջան Ձեր դաստակի համար:",
+      "images": [
+        "/images/product/p-image6.1.jpg",
+        "/images/product/p-image6.2.jpg"
+      ],
+      "oldPrice": "$408.36",
+      "discount": "SALE"
+    },
+    {
+      "id": "29",
+      "lang": "am",
+      "title": "ՆՈՒՐԲ ՔԱՐԵՐՈՎ ԱԿԱՆՋՕՂԵՐ",
+      "price": "$500.00",
+      "material": "Արծաթ և Ադամանդ",
+      "brand": "Almast",
+      "category": "Ականջօղեր",
+      "rating": 3.2,
+      "reviewCount": 4,
+      "views": 32,
+      "description": "Նրբագեղ ականջօղեր թանկարժեք քարերով:",
+      "images": [
+        "/images/product/p-image7.1.jpg",
+        "/images/product/p-image7.2.jpg"
+      ]
+    },
+    {
+      "id": "30",
+      "lang": "am",
+      "title": "ՆՈՒՐԲ ԱԿԱՆՋՕՂԵՐ",
+      "price": "$149.99",
+      "material": "Ադամանդ և Արծաթ",
+      "brand": "Gord",
+      "category": "Ականջօղեր",
+      "rating": 4.7,
+      "reviewCount": 9,
+      "views": 34,
+      "description": "Փոքրիկ ադամանդով զարդարված նուրբ ականջօղեր:",
+      "images": [
+        "/images/product/p-image8.1.jpg",
+        "/images/product/p-image8.2.jpg"
+      ]
+    },
+    {
+      "id": "31",
+      "lang": "am",
+      "title": "ԱՐԾԱԹՅԱ ԴԻԶԱՅՆԵՐ",
+      "price": "$2,030.90",
+      "material": "18Կ Ոսկի և Ադամանդ",
+      "brand": "SilverDaimond",
+      "category": "Վզնոցներ",
+      "rating": 5,
+      "reviewCount": 21,
+      "views": 49,
+      "description": "Բարձրակարգ արծաթյա դիզայնով զարդեր:",
+      "images": [
+        "/images/product/p-image9.1.jpg",
+        "/images/product/p-image9.2.jpg"
+      ],
+      "oldPrice": "$2437.08",
+      "discount": "SALE"
+    },
+    {
+      "id": "32",
+      "lang": "am",
+      "title": "ԱԴԱՄԱՆԴՅԱ ՍՈԼԻՏԵՐ",
+      "price": "$390.10",
+      "material": "Արծաթ և Ադամանդ",
+      "brand": "Almast",
+      "category": "Մատանիներ",
+      "rating": 4,
+      "reviewCount": 2,
+      "views": 42,
+      "description": "Շքեղ մատանի մեծ թանկարժեք քարով:",
+      "images": [
+        "/images/product/p-image10.1.jpg",
+        "/images/product/p-image10.2.jpg"
+      ]
+    },
+    {
+      "id": "33",
+      "lang": "am",
+      "title": "ԱԴԱՄԱՆԴՅԱ ՄԱՏԱՆԻ",
+      "price": "$280.60",
+      "material": "Վարդագույն Ոսկի և Արծաթ",
+      "brand": "Gord",
+      "category": "Մատանիներ",
+      "rating": 4.1,
+      "reviewCount": 6,
+      "views": 31,
+      "description": "Նրբաոճ ադամանդյա մատանի:",
+      "images": [
+        "/images/product/p-image11.1.jpg",
+        "/images/product/p-image11.2.jpg"
+      ]
+    },
+    {
+      "id": "34",
+      "lang": "am",
+      "title": "DIVINA ՈՍԿՅԱ ԱԴԱՄԱՆԴ",
+      "price": "$299.99",
+      "material": "Արծաթ և Վարդագույն Ոսկեպատ",
+      "brand": "SilverDaimond",
+      "category": "Մատանիներ",
+      "rating": 3.8,
+      "reviewCount": 7,
+      "views": 36,
+      "description": "Եզակի մատանի պատրաստված 925 հարգի արծաթից:",
+      "images": [
+        "/images/product/p-image12.1.jpg",
+        "/images/product/p-image12.2.jpg"
+      ],
+      "oldPrice": "$359.99",
+      "discount": "SALE"
+    },
+    {
+      "id": "35",
+      "lang": "am",
+      "title": "ՇՔԵՂ ԱԴԱՄԱՆԴՅԱ ԱԿԱՆՋՕՂԵՐ",
+      "price": "$1,020.00",
+      "material": "14Կ Սպիտակ Ոսկի և Ադամանդ",
+      "brand": "Almast",
+      "category": "Ականջօղեր",
+      "rating": 5,
+      "reviewCount": 18,
+      "views": 13,
+      "description": "Շքեղ ականջօղեր հատուկ առիթների համար:",
+      "images": [
+        "/images/product/p-image13.1.jpg",
+        "/images/product/p-image13.2.jpg"
+      ]
+    },
+    {
+      "id": "36",
+      "lang": "am",
+      "title": "ԷԼԵԳԱՆՏ ՄԱՏԱՆԻ",
+      "price": "$120.00",
+      "material": "Արծաթ և Դեղին Ոսկեպատ",
+      "brand": "Gord",
+      "category": "Մատանիներ",
+      "rating": 4.3,
+      "reviewCount": 4,
+      "views": 17,
+      "description": "Ընդգծում է կանացի նրբությունը:",
+      "images": [
+        "/images/product/p-image14.1.jpg",
+        "/images/product/p-image14.2.jpg"
+      ]
+    },
+    {
+      "id": "37",
+      "lang": "am",
+      "title": "ՆՐԲԱՃԱՇԱԿ ՄԱՏԱՆԻ",
+      "price": "$410.00",
+      "material": "14Կ Դեղին Ոսկի և Ադամանդ",
+      "brand": "SilverDaimond",
+      "category": "Մատանիներ",
+      "rating": 4.9,
+      "reviewCount": 11,
+      "views": 12,
+      "description": "Նրբաճաշակ ոսկյա մատանի ադամանդով:",
+      "images": [
+        "/images/product/p-image15.1.jpg",
+        "/images/product/p-image15.2.jpg"
+      ],
+      "oldPrice": "$492.00",
+      "discount": "SALE"
+    },
+    {
+      "id": "38",
+      "lang": "am",
+      "title": "HAVEN PARK ԱԿԱՆՋՕՂԵՐ",
+      "price": "$310.40",
+      "material": "Արծաթ և Դեղին Ոսկեպատ",
+      "brand": "Almast",
+      "category": "Ականջօղեր",
+      "rating": 3.6,
+      "reviewCount": 5,
+      "views": 29,
+      "description": "Էլեգանտ ականջօղեր ամենօրյա կրման համար:",
+      "images": [
+        "/images/product/p-image16.1.jpg",
+        "/images/product/p-image16.2.jpg"
+      ]
+    },
+    {
+      "id": "39",
+      "lang": "am",
+      "title": "ԿԱԽԱՐԴԱԿԱՆ ԱԿԱՆՋՕՂԵՐ",
+      "price": "$199.99",
+      "material": "Դեղին Ոսկի և Ադամանդ",
+      "brand": "Gord",
+      "category": "Ականջօղեր",
+      "rating": 5,
+      "reviewCount": 25,
+      "views": 14,
+      "description": "Կախարդական տեսք հաղորդող ականջօղեր:",
+      "images": [
+        "/images/product/p-image17.1.jpg",
+        "/images/product/p-image17.2.jpg"
+      ]
+    },
+    {
+      "id": "40",
+      "lang": "am",
+      "title": "ՄԻՆԻՄԱԼԻՍՏԱԿԱՆ ՈՍԿՅԱ ՕՂԵՐ",
+      "price": "$289.99",
+      "material": "Արծաթ և Դեղին Ոսկեպատ",
+      "brand": "SilverDaimond",
+      "category": "Ականջօղեր",
+      "rating": 4.4,
+      "reviewCount": 8,
+      "views": 29,
+      "description": "Մինիմալիստական դիզայն ժամանակակից կնոջ համար:",
+      "images": [
+        "/images/product/p-image18.1.jpg",
+        "/images/product/p-image18.2.jpg"
+      ],
+      "oldPrice": "$347.99",
+      "discount": "SALE"
+    },
+    {
+      "id": "41",
+      "lang": "am",
+      "title": "MONDEVIO ԱՐԾԱԹՅԱ ԶԱՐԴ",
+      "price": "$490.20",
+      "material": "Արծաթ և Վարդագույն Ոսկեպատ",
+      "brand": "Almast",
+      "category": "Ականջօղեր",
+      "rating": 4,
+      "reviewCount": 2,
+      "views": 24,
+      "description": "Բարձրորակ արծաթյա ականջօղեր:",
+      "images": [
+        "/images/product/p-image19.1.jpg",
+        "/images/product/p-image19.2.jpg"
+      ]
+    },
+    {
+      "id": "42",
+      "lang": "am",
+      "title": "ՓԱՅԼՈՒՆ ԱԿԱՆՋՕՂԵՐ V2",
+      "price": "$230.00",
+      "material": "Արծաթ և Դեղին Ոսկեպատ",
+      "brand": "Gord",
+      "category": "Ականջօղեր",
+      "rating": 3.4,
+      "reviewCount": 10,
+      "views": 36,
+      "description": "Գեղեցիկ փայլուն ականջօղեր:",
+      "images": [
+        "/images/product/p-image20.1.jpg",
+        "/images/product/p-image20.2.jpg"
+      ]
+    },
+    {
+      "id": "43",
+      "lang": "am",
+      "title": "ԹԱՆԿԱՐԺԵՔ ՔԱՐՈՎ ՄԱՏԱՆԻ",
+      "price": "$129.00",
+      "material": "Արծաթ և Դեղին Ոսկեպատ",
+      "brand": "SilverDaimond",
+      "category": "Մատանիներ",
+      "rating": 4.6,
+      "reviewCount": 14,
+      "views": 37,
+      "description": "Համարձակ տեսքի համար նախատեսված մատանի:",
+      "images": [
+        "/images/product/p-image21.1.jpg",
+        "/images/product/p-image21.2.jpg"
+      ],
+      "oldPrice": "$154.80",
+      "discount": "SALE"
+    },
+    {
+      "id": "44",
+      "lang": "am",
+      "title": "ԴԵՂԻՆ ԱԴԱՄԱՆԴՈՎ ՄԱՏԱՆԻ",
+      "price": "$189.99",
+      "material": "Արծաթ և Վարդագույն Ոսկեպատ",
+      "brand": "Almast",
+      "category": "Մատանիներ",
+      "rating": 5,
+      "reviewCount": 30,
+      "views": 34,
+      "description": "Նրբագեղ մատանի դեղին ադամանդով:",
+      "images": [
+        "/images/product/p-image22.1.jpg",
+        "/images/product/p-image22.2.jpg"
+      ]
+    }
+  ],
+  "headingProduct": [
+    {
+      "id": "1",
+      "lang": "en",
+      "title1": "THE MOST POPULAR",
+      "title2": "EXPLORE XSTORE PRODUCTS"
+    },
+    {
+      "id": "2",
+      "lang": "am",
+      "title1": "ԱՄԵՆԱՊՈՊՈՒԼՅԱՐ ԶԱՐԴԵՐԸ",
+      "title2": "ԲԱՑԱՀԱՅՏԵՔ XSTORE ՏԵՍԱԿԱՆԻՆ"
+    }
+  ],
+  "contact": [
+    {
+      "id": "1",
+      "title": "contact us",
+      "lang": "en",
+      "desc": "Mus pretium velit nibh at lobortis enim lobortis. In natoque varius tempus pellentesque. Dignissim convallis ipsum ultrices faucibus nibh morbi amet duis rhoncus.",
+      "adress_title": "Adresses",
+      "adress_desc": "3245 Abbot Kinney BLVD – PH Venice, CA 12476 East Houston Street New York City",
+      "question_title": "do you have a question? write to us",
+      "question_desc": "XSTORE Jewelry was created for those who seek not just a piece of jewelry, but a symbol of individuality. Our story began with a profound love for art and elegance, blending classic style with modern solutions. Today, we are represented in the world's most stylish cities, from New York to California.",
+      "email": "information@info.net",
+      "social_networks": "our social networks",
+      "form_title": "How we can help you?",
+      "form_desc": "I accept the terms & conditions and I understand that my data will be hold securely in accordance with the privacy policy.",
+      "sendbutton": "SEND MESSAGE"
+    },
+    {
+      "id": "2",
+      "title": "կապ մեզ հետ",
+      "lang": "am",
+      "desc": "Մենք միշտ պատրաստ ենք լսել ձեզ: Լրացրեք ձևաթուղթը կամ կապ հաստատեք մեզ հետ նշված հասցեներով, և մեր մասնագետները կպատասխանեն ձեզ հնարավորինս սեղմ ժամկետներում",
+      "adress_title": "Հասցեներ",
+      "adress_desc": "3245 Abbot Kinney BLVD – PH Venice, CA 12476 East Houston Street New York City",
+      "question_title": "Ունե՞ք հարցեր: Գրեք մեզ",
+      "question_desc": "XSTORE Jewelry-ն ստեղծվել է նրանց համար, ովքեր փնտրում են ոչ թե պարզապես զարդ, այլ ինքնատիպության խորհրդանիշ: Մեր պատմությունն սկսվել է արվեստի և նրբագեղության հանդեպ մեծ սիրուց՝ միավորելով դասական ոճն ու ժամանակակից լուծումները: Այսօր մենք ներկայացված ենք աշխարհի ամենաոճային քաղաքներում՝ Նյու Յորքից մինչև Կալիֆոռնիա:",
+      "email": "information@info.net",
+      "social_networks": "մեր սոցիալական ցանցերը",
+      "form_title": "Ինչպե՞ս կարող ենք ձեզ օգնել",
+      "form_desc": "Ես ընդունում եմ պայմանները և հասկանում եմ, որ իմ տվյալները կպահվեն ապահով՝ համաձայն գաղտնիության քաղաքականության:",
+      "sendbutton": "ՈՒՂԱՐԿԵԼ ՀԱՂՈՐԴԱԳՐՈՒԹՅՈՒՆ"
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "lang": "en",
+      "btn": "Shop Now",
+      "name": "Ruby",
+      "img": "/images/types/Ruby.svg",
+      "slug": "ruby"
+    },
+    {
+      "id": 2,
+      "lang": "en",
+      "btn": "Shop Now",
+      "name": "Emerald",
+      "img": "/images/types/Emerald.svg",
+      "slug": "emerald"
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "btn": "Shop Now",
+      "name": "Sapphire",
+      "img": "/images/types/Sapphire.svg",
+      "slug": "sapphire"
+    },
+    {
+      "id": 4,
+      "lang": "en",
+      "btn": "Shop Now",
+      "name": "Alexandrite",
+      "img": "/images/types/Alexandrite.svg",
+      "slug": "alexandrite"
+    },
+    {
+      "id": 5,
+      "lang": "en",
+      "btn": "Shop Now",
+      "name": "Diamond",
+      "img": "/images/types/Diamond.svg",
+      "slug": "diamond"
+    },
+    {
+      "id": 6,
+      "lang": "en",
+      "btn": "Shop Now",
+      "name": "Tourmaline",
+      "img": "/images/types/Tourmaline.svg",
+      "slug": "tourmaline"
+    },
+    {
+      "id": 7,
+      "lang": "en",
+      "btn": "Shop Now",
+      "name": "Opal",
+      "img": "/images/types/Opal.svg",
+      "slug": "opal"
+    },
+    {
+      "id": 8,
+      "lang": "en",
+      "btn": "Shop Now",
+      "name": "Aquamarine",
+      "img": "/images/types/Aquamarine.svg",
+      "slug": "aquamarine"
+    },
+    {
+      "id": 9,
+      "lang": "am",
+      "btn": "Գնել հիմա",
+      "name": "Ռուբին",
+      "img": "/images/types/Ruby.svg",
+      "slug": "ruby"
+    },
+    {
+      "id": 10,
+      "lang": "am",
+      "btn": "Գնել հիմա",
+      "name": "Զմրուխտ",
+      "img": "/images/types/Emerald.svg",
+      "slug": "emerald"
+    },
+    {
+      "id": 11,
+      "lang": "am",
+      "btn": "Գնել հիմա",
+      "name": "Շափյուղա",
+      "img": "/images/types/Sapphire.svg",
+      "slug": "sapphire"
+    },
+    {
+      "id": 12,
+      "lang": "am",
+      "btn": "Գնել հիմա",
+      "name": "Ալեքսանդրիտ",
+      "img": "/images/types/Alexandrite.svg",
+      "slug": "alexandrite"
+    },
+    {
+      "id": 13,
+      "lang": "am",
+      "btn": "Գնել հիմա",
+      "name": "Ադամանդ",
+      "img": "/images/types/Diamond.svg",
+      "slug": "diamond"
+    },
+    {
+      "id": 14,
+      "lang": "am",
+      "btn": "Գնել հիմա",
+      "name": "Տուրմալին",
+      "img": "/images/types/Tourmaline.svg",
+      "slug": "tourmaline"
+    },
+    {
+      "id": 15,
+      "lang": "am",
+      "btn": "Գնել հիմա",
+      "name": "Օպալ",
+      "img": "/images/types/Opal.svg",
+      "slug": "opal"
+    },
+    {
+      "id": 16,
+      "lang": "am",
+      "btn": "Գնել հիմա",
+      "name": "Ակվամարին",
+      "img": "/images/types/Aquamarine.svg",
+      "slug": "aquamarine"
+    }
+  ],
+  "infoSection": [
+    {
+      "id": 1,
+      "lang": "en",
+      "subtitle": "interesting offers",
+      "title": "Adorn yourself with the finest jewelry",
+      "desc": "Invest in timeless beauty with our jewelry collection",
+      "parent1": "/images/info/Image-4.webp",
+      "child1": "/images/info/Image-14.2-min-390x520.webp",
+      "parent2": "/images/info/Image2-2.webp",
+      "child2": "/images/info/Image-19.1-min-390x520.webp",
+      "btn": "Discovery more",
+      "btn_href": "product"
+    },
+    {
+      "id": 2,
+      "lang": "am",
+      "subtitle": "Հետաքրքիր առաջարկներ",
+      "title": "Զարդարեք ձեզ լավագույն զարդերով",
+      "desc": "Ներդրում կատարեք հավերժական գեղեցկության մեջ մեր զարդերի հավաքածուի հետ",
+      "parent1": "/images/info/Image-4.webp",
+      "child1": "/images/info/Image-14.2-min-390x520.webp",
+      "parent2": "/images/info/Image2-2.webp",
+      "child2": "/images/info/Image-19.1-min-390x520.webp",
+      "btn": "Բացահայտել ավելին",
+      "btn_href": "/product"
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "subtitle": "you should know",
+      "title": "Elementor Luxury Jewelry Demo",
+      "desc": "Unlock the elegance with our fine jewelry collection",
+      "parent1": "/images/info/Image3-2.webp",
+      "child1": "/images/info/Image-1.1-390x520.webp",
+      "parent2": "/images/info/Image4-1.webp",
+      "child2": "/images/info/Image-25.2-min-390x520.webp",
+      "btn": "Discovery more",
+      "btn_href": "/product"
+    },
+    {
+      "id": 4,
+      "lang": "am",
+      "subtitle": "Դուք պետք է իմանաք",
+      "title": "Elementor Շքեղ Զարդերի Ցուցադրություն",
+      "desc": "Բացահայտեք նրբագեղությունը մեր բարձրակարգ զարդերի հավաքածուի հետ",
+      "parent1": "/images/info/Image3-2.webp",
+      "child1": "/images/info/Image-1.1-390x520.webp",
+      "parent2": "/images/info/Image4-1.webp",
+      "child2": "/images/info/Image-25.2-min-390x520.webp",
+      "btn": "Բացահայտել ավելին",
+      "btn_href": "product"
+    }
+  ],
+  "timerSection": [
+    {
+      "id": 1,
+      "lang": "en",
+      "title": "New looks, timeless style",
+      "btnText": "Go to Shop",
+      "labels": {
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Minutes",
+        "seconds": "Seconds"
+      }
+    },
+    {
+      "id": 2,
+      "lang": "am",
+      "title": "Նոր տեսք, հավերժական ոճ",
+      "btnText": "Գնալ խանութ",
+      "labels": {
+        "days": "Օր",
+        "hours": "Ժամ",
+        "minutes": "Րոպե",
+        "seconds": "Վայրկյան"
+      }
+    }
+  ],
+  "bestCategories": [
+    {
+      "id": 1,
+      "lang": "en",
+      "title1": "The Most Interesting",
+      "title2": "Our Best Categories",
+      "items": [
+        {
+          "id": 1,
+          "name": "SILVER SETS",
+          "image": "/images/category/category.webp"
+        },
+        {
+          "id": 2,
+          "name": "WHITE GOLD RINGS",
+          "image": "/images/category/category2-1.webp"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "lang": "am",
+      "title1": "Ամենահետաքրքիրը",
+      "title2": "Մեր լավագույն բաժինները",
+      "items": [
+        {
+          "id": 3,
+          "name": "ԱՐԾԱԹՅԱ ՀԱՎԱՔԱԾՈՒՆԵՐ",
+          "image": "/images/category/category.webp"
+        },
+        {
+          "id": 4,
+          "name": "ՍՊԻՏԱԿ ՈՍԿՈՒՑ ՄԱՏԱՆԻՆԵՐ",
+          "image": "/images/category/category2-1.webp"
+        }
+      ]
+    }
+  ],
+  "wishlist_translations": [
+    {
+      "id": "1",
+      "lang": "en",
+      "title": "FAVORITES",
+      "empty_msg": "The list is empty",
+      "delete_btn": "Delete"
+    },
+    {
+      "id": "2",
+      "lang": "am",
+      "title": "ՆԱԽԸՆՏՐԵԼԻՆԵՐ",
+      "empty_msg": "Ցուցակը դատարկ է",
+      "delete_btn": "Ջնջել"
+    }
+  ],
+  "footerData": [
+    {
+      "lang": "en",
+      "description": "Luxury jewelry for every occasion. Elegant designs that speak for themselves.",
+      "menuTitle": "Menu",
+      "contactTitle": "Contact Us",
+      "address": "Yerevan, Armenia",
+      "phone": "Phone",
+      "email": "Email: info@xstore.am",
+      "phonenumber": "+374 00 000 000",
+      "rights": "All rights reserved."
+    },
+    {
+      "lang": "am",
+      "description": "Շքեղ զարդեր յուրաքանչյուր առիթի համար: Նրբագեղ ձևավորումներ, որոնք խոսում են իրենց փոխարեն:",
+      "menuTitle": "Մենյու",
+      "contactTitle": "Հետադարձ կապ",
+      "address": "Երևան, Հայաստան",
+      "phone": "Հեռախոս",
+      "rights": "Բոլոր իրավունքները պաշտպանված են:"
+    }
+  ],
+  "about": [
+    {
+      "id": 1,
+      "lang": "en",
+      "hero": {
+        "subtitle": "ABOUT OUR COMPANY",
+        "title": "A WORLD OF ELEGANT JEWELRY",
+        "text": "XSTORE Jewelry was created for those who are looking not just for accessories, but for pieces that tell a story. We combine classic craftsmanship with modern design to create jewelry that feels personal, refined and unforgettable.",
+        "button": "GO TO SHOP NOW"
+      },
+      "stats": [
+        {
+          "id": 1,
+          "number": "7+",
+          "label": "GLORIOUS YEARS"
+        },
+        {
+          "id": 2,
+          "number": "23+",
+          "label": "HAPPY CLIENTS"
+        },
+        {
+          "id": 3,
+          "number": "38+",
+          "label": "PROJECTS COMPLETE"
+        },
+        {
+          "id": 4,
+          "number": "15+",
+          "label": "TEAM ADVISOR"
+        },
+        {
+          "id": 5,
+          "number": "30+",
+          "label": "PRODUCTS SALE"
+        }
+      ],
+      "sections": [
+        {
+          "id": "core",
+          "title": "THE CORE GOAL",
+          "quote": "\"Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam\"",
+          "signature": "Esther Howard – CO‑Founder",
+          "text1": "Our goal is to create jewelry that becomes part of your most important moments. Each design goes through careful selection of materials, precise cutting and finishing so that every piece looks flawless and feels comfortable in everyday wear.",
+          "image": "/images/info/Image4-1.webp"
+        },
+        {
+          "id": "vision",
+          "title": "OUR VISION & VALUES",
+          "text1": "We believe that jewelry should not only look beautiful, but also feel meaningful. Every collection we release is inspired by real stories, emotions and moments that our clients share with us.",
+          "text2": "Our vision is to create timeless pieces that can be worn every day and still shine on the most special occasions. We value honesty, craftsmanship and long‑term relationships with our clients.",
+          "image": "/images/info/Image3-2.webp"
+        }
+      ],
+      "infoCards": [
+        {
+          "id": 1,
+          "icon": "location",
+          "title": "ADDRESS",
+          "text1": "3245 Abbot Kinney BLVD Venice, CA 124,",
+          "text2": "76 East Houston Street New York City"
+        },
+        {
+          "id": 2,
+          "icon": "chat",
+          "title": "CONTACT US",
+          "text1": "Hotline (406) 555-0120, (208) 555-0112",
+          "text2": "E-mail: hello@yoursite.com"
+        },
+        {
+          "id": 3,
+          "icon": "clock",
+          "title": "HOUR OF OPERATION",
+          "text1": "Monday - Friday: 8:30am - 8:00pm",
+          "text2": "Saturday - Sunday: 9:30am - 1:30pm"
+        }
+      ],
+      "team": [
+        {
+          "id": 1,
+          "name": "Jane Cooper",
+          "role": "Director",
+          "image": "/images/about/jane.webp"
+        },
+        {
+          "id": 2,
+          "name": "Diago Johnson",
+          "role": "Sales Manager",
+          "image": "/images/about/diago'.webp"
+        },
+        {
+          "id": 3,
+          "name": "Alex Leeman",
+          "role": "Co‑Founder",
+          "image": "/images/about/alex.webp"
+        },
+        {
+          "id": 4,
+          "name": "Sophia Lauren",
+          "role": "Marketing",
+          "image": "/images/about/sophia.webp"
+        }
+      ],
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Ronald Williamson",
+          "country": "Afghanistan",
+          "rating": 5,
+          "text": "If I could give you 6 stars I would. I have tried virtually every eCommerce theme on the market. Besides the fact that this is by far the best one, the code is simply the best I have ever had with any purchase and also very practical widgets. Thank you!"
+        },
+        {
+          "id": 2,
+          "name": "Judith McKinney",
+          "country": "Afghanistan",
+          "rating": 5,
+          "text": "This is by far the best theme on Themeforest. It adapts to a lot of the plugins, and their customer support is great. I really love this theme!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "lang": "am",
+      "hero": {
+        "subtitle": "ՄԵՐ ՄԱՍԻՆ",
+        "title": "ՇՔԵՂ ԶԱՐԴԵՐ ՅՈՒՐԱՔԱՆՉՅՈՒՐ ՕՐԻ ՀԱՄԱՐ",
+        "text": "XSTORE Jewelry‑ն ստեղծվել է նրանց համար, ովքեր փնտրում են ոչ թե պարզապես աքսեսուար, այլ պատմություն՝ սիրո, կարևոր ձեռքբերումների և հիշվող պահերի մասին։ Մենք միավորում ենք դասական արհեստավարժությունը և ժամանակակից դիզայնը՝ ստեղծելով նրբագեղ և անհատական զարդեր։",
+        "button": "ԳՆԱԼ ԽԱՆՈՒԹ"
+      },
+      "stats": [
+        {
+          "id": 1,
+          "number": "7+",
+          "label": "ՏԱՐԻ ՓԱՌԱՎՈՐ ԱՇԽԱՏԱՆՔ"
+        },
+        {
+          "id": 2,
+          "number": "23+",
+          "label": "ԵՐՋԱՆԿ ՀԱՃԱԽՈՐԴՆԵՐ"
+        },
+        {
+          "id": 3,
+          "number": "38+",
+          "label": "ԱՎԱՐՏՎԱԾ ՆԱԽԱԳԻՐ"
+        },
+        {
+          "id": 4,
+          "number": "15+",
+          "label": "ՄԱՍՆԱԳԵՏ ԹԻՄ"
+        },
+        {
+          "id": 5,
+          "number": "30+",
+          "label": "ԱՊՐԱՆՔ ՆԵՐ ՎԱՃԱՌՔՈՒՄ"
+        }
+      ],
+      "sections": [
+        {
+          "id": "core",
+          "title": "ՄԵՐ ՀԻՄՆԱԿԱՆ ՆՊԱՏԱԿԸ",
+          "quote": "«Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam»",
+          "signature": "Esther Howard – CO‑Founder",
+          "text1": "Մեր նպատակը բարձրորակ ու հասանելի շքեղություն ստեղծելն է։ Մենք ուշադիր ընտրում ենք մետաղները և քարերը, աշխատում ենք վստահելի գործընկերների հետ և վերահսկում ենք արտադրության յուրաքանչյուր քայլը, որպեսզի ձեր ձեռք բերած յուրաքանչյուր զարդ ծառայի երկար տարիներ։",
+          "image": "/images/info/Image2-2.webp"
+        },
+        {
+          "id": "vision",
+          "title": "ՄԵՐ ՏԵՍԼԱԿԱՆԸ ԵՎ ԱՐԺԵՔՆԵՐԸ",
+          "text1": "Մենք հավատում ենք, որ զարդը պետք է ոչ միայն գեղեցիկ լինի, այլ նաև իմաստ ունի իր մեջ։ Մեր յուրաքանչյուր հավաքածուն ներշնչված է իրական պատմություններից, զգացմունքներից և հիշվող պահերից, որոնք կիսվում են մեր հաճախորդները։",
+          "text2": "Մեր տեսլականն է ստեղծել նրբագեղ զարդեր, որոնք հնարավոր է կրել թե՛ ամեն օրը, թե՛ կյանքի ամենակարևոր արարողությունների ժամանակ։ Մենք արժևորում ենք ազնվությունը, բարձր արհեստավարժությունը և երկարաժամկետ հարաբերությունները հաճախորդների հետ։",
+          "image": "/images/info/Image3-2.webp"
+        }
+      ],
+      "infoCards": [
+        {
+          "id": 1,
+          "icon": "location",
+          "title": "ՀԱՍՑԵ",
+          "text1": "3245 Abbot Kinney BLVD Venice, CA 124,",
+          "text2": "76 East Houston Street New York City"
+        },
+        {
+          "id": 2,
+          "icon": "chat",
+          "title": "ԿԱՊ ՄԵԶ ՀԵՏ",
+          "text1": "Թեժ գիծ (406) 555-0120, (208) 555-0112",
+          "text2": "Էլ. հասցե: hello@yoursite.com"
+        },
+        {
+          "id": 3,
+          "icon": "clock",
+          "title": "ԱՇԽԱՏԱՆՔԱՅԻՆ ԺԱՄԵՐ",
+          "text1": "Երկուշաբթի - Ուրբաթ: 8:30 - 20:00",
+          "text2": "Շաբաթ - Կիրակի: 9:30 - 13:30"
+        }
+      ],
+      "team": [
+        {
+          "id": 1,
+          "name": "Jane Cooper",
+          "role": "Տնօրեն",
+          "image": "/images/about/jane.webp"
+        },
+        {
+          "id": 2,
+          "name": "Diago Johnson",
+          "role": "Վաճառքների մենեջեր",
+          "image": "/images/about/diago'.webp"
+        },
+        {
+          "id": 3,
+          "name": "Alex Leeman",
+          "role": "Համահիմնադիր",
+          "image": "/images/about/alex.webp"
+        },
+        {
+          "id": 4,
+          "name": "Sophia Lauren",
+          "role": "Մարքեթինգ",
+          "image": "/images/about/sophia.webp"
+        }
+      ],
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Ռոնալդ Ուիլյամսոն",
+          "country": "Աֆղանստան",
+          "rating": 5,
+          "text": "Եթե կարողանայի 6 աստղ դնել՝ անպայման կանեի։ Փորձել եմ գրեթե բոլոր ecommerce թեմաները, բայց սա լավագույնն է՝ և՛ կոդի որակով, և՛ գործնական վիջեթներով։ Շնորհակալ եմ ձեզ գերազանց աշխատանքի համար։"
+        },
+        {
+          "id": 2,
+          "name": "Ջուդիթ ՄաքՔիննի",
+          "country": "Աֆղանստան",
+          "rating": 5,
+          "text": "Սա Themeforest‑ի իմ օգտագործած լավագույն թեման է։ Հեշտությամբ աշխատում է բազմաթիվ պլագինների հետ, իսկ հաճախորդների սպասարկումն իսկապես բարձր մակարդակի վրա է։"
+        }
+      ]
+    }
+  ],
+  "productDetailTexts": [
+    {
+      "id": "1",
+      "lang": "en",
+      "reviews": "customer reviews",
+      "viewing": "people are viewing this product right now",
+      "sold": "items sold in last 3 hours",
+      "descTitle": "Description & Details",
+      "features": [
+        "Premium Quality",
+        "Designed to be comfortable and easy to wear"
+      ],
+      "delivery": "Estimated delivery: 5 days",
+      "addToCart": "ADD TO CART",
+      "or": "OR",
+      "buyNow": "BUY NOW",
+      "offersTitle": "BUY MORE SAVE MORE!",
+      "offer1Title": "BUY 3 ITEMS GET 5% OFF",
+      "offer1Desc": "on each product",
+      "offer2Title": "BUY 6 ITEMS GET 10% OFF",
+      "offer2Desc": "on each product",
+      "brandLabel": "Brand",
+      "notFound": "Product not found"
+    },
+    {
+      "id": "2",
+      "lang": "am",
+      "reviews": "հաճախորդի կարծիքներ",
+      "viewing": "հոգի դիտում են այս ապրանքը հենց հիմա",
+      "sold": "ապրանք վաճառվել է վերջին 3 ժամում",
+      "descTitle": "Նկարագրություն և մանրամասներ",
+      "features": [
+        "Բարձր որակ",
+        "Նախատեսված է հարմարավետ կրելու համար"
+      ],
+      "delivery": "Առաքման մոտավոր ժամանակը՝ 5 օր",
+      "addToCart": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂՈՒՄ",
+      "or": "ԿԱՄ",
+      "buyNow": "ԳՆԵԼ ՀԻՄԱ",
+      "offersTitle": "ԳՆԵՔ ԱՎԵԼԻՆ, ԽՆԱՅԵՔ ԱՎԵԼԻՆ!",
+      "offer1Title": "ԳՆԵՔ 3 ՆՄՈՒՇ, ՍՏԱՑԵՔ 5% ԶԵՂՉ",
+      "offer1Desc": "յուրաքանչյուր ապրանքի համար",
+      "offer2Title": "ԳՆԵՔ 6 ՆՄՈՒՇ, ՍՏԱՑԵՔ 10% ԶԵՂՉ",
+      "offer2Desc": "յուրաքանչյուր ապրանքի համար",
+      "brandLabel": "Բրենդ",
+      "notFound": "Ապրանքը չի գտնվել"
+    }
+  ],
+  "checkoutTexts": [
+    {
+      "id": "1",
+      "lang": "en",
+      "coupon": "Have a coupon? Click here to enter",
+      "billing": "BILLING DETAILS",
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "company": "Company Name (optional)",
+      "country": "Country / Region *",
+      "streetAddress": "Street address *",
+      "address1Placeholder": "House number and street name",
+      "address2Placeholder": "Apartment, suite, unit, etc. (optional)",
+      "cityLabel": "Town / City *",
+      "stateLabel": "State *",
+      "phone": "Phone *",
+      "zip": "ZIP Code *",
+      "email": "Email Address *",
+      "addInfo": "ADDITIONAL INFORMATION",
+      "notes": "Order Notes (optional)",
+      "notesPlaceholder": "Notes about your order, e.g. special notes for delivery.",
+      "yourOrder": "YOUR ORDER",
+      "product": "PRODUCT",
+      "subtotal": "Subtotal",
+      "total": "TOTAL",
+      "checkPayment": "Check payments",
+      "checkHint": "Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.",
+      "cashDelivery": "Cash on delivery",
+      "placeOrder": "PLACE ORDER",
+      "successTitle": "Order Placed Successfully!",
+      "successMsg": "Thank you for your purchase. We will contact you shortly.",
+      "backShop": "Back to Shop",
+      "proceedCheckout": "Proceed to Checkout"
+    },
+    {
+      "id": "2",
+      "lang": "am",
+      "coupon": "Ունե՞ք կտրոն: Սեղմեք այստեղ",
+      "billing": "ՎՃԱՐՄԱՆ ՏՎՅԱԼՆԵՐ",
+      "firstName": "Անուն *",
+      "lastName": "Ազգանուն *",
+      "address2Placeholder": "Bnak., suite (kth.)",
+      "cityLabel": "Qaghak *",
+      "stateLabel": "Nahang *",
+      "phone": "Heln. *",
+      "zip": "ZIP kод *",
+      "email": "Electrical. has. *",
+      "addInfo": "LRATSUCAKAN TIMYER",
+      "notes": "Noty. (kth.)",
+      "notesPlaceholder": "Noty. masin...",
+      "yourOrder": "ŁER PAYMANQY",
+      "product": "APA.",
+      "subtotal": "Mjnag gum.",
+      "total": "YNDAMENY",
+      "checkPayment": "Paycheck-ov",
+      "checkHint": "Ouparcek check...",
+      "cashDelivery": "Кov. vest.",
+      "placeOrder": "PAYEL PAYMANQY",
+      "successTitle": "Paymanqy Hargeal E!",
+      "successMsg": "Shnorhakalutyun, ker paymanqi hamar: Kazm kap kpahpenq Dzez het.",
+      "backShop": "Veras Daral Khanutyun",
+      "proceedCheckout": "Ants'nel Vcharman"
+    }
+  ]
+}

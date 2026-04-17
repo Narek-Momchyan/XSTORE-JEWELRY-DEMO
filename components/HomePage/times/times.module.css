@@ -1,0 +1,118 @@
+.row {
+  width: 100%;
+  background-color: #0a0e27; /* Մուգ կապույտ ֆոն, ինչպես նկարում */
+  background-image: url('https://xstore.8theme.com/elementor2/luxury_jewelry/wp-content/uploads/2021/08/Banner-static-bg.jpg'); /* Եթե ունես նկարի հղումը */
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+}
+
+/* Ոսկեգույն շրջանակը */
+.row::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 1px solid rgba(181, 160, 131, 0.4); /* Ոսկեգույն նուրբ շրջանակ */
+  pointer-events: none;
+}
+
+.timerContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+
+.timeBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+}
+
+.number {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.divider {
+  font-size: 36px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: -20px;
+}
+
+.title {
+  font-size: clamp(24px, 5vw, 42px);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  z-index: 1;
+}
+
+.btn {
+  padding: 15px 45px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #0a0e27;
+}
+
+/* --- ԱԴԱՊՏԻՎՈՒԹՅՈՒՆ --- */
+
+@media (max-width: 800px) {
+  .number {
+    font-size: 36px;
+  }
+  .timeBox {
+    min-width: 60px;
+  }
+  .title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 400px) {
+  .timerContainer {
+    gap: 5px;
+  }
+  .number {
+    font-size: 28px;
+  }
+  .timeBox {
+    min-width: 50px;
+  }
+  .divider {
+    font-size: 20px;
+  }
+}

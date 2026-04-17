@@ -1,0 +1,347 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.spinner {
+    width: 44px;
+    height: 44px;
+    border: 3px solid #e0d5c4;
+    border-top-color: #c7a34f;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.container {
+    margin-top: 0;
+}
+
+.page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    font-family: 'Inter', sans-serif;
+}
+
+.couponBar {
+    border: 1px solid #e2c478;
+    background: #fffbf2;
+    color: #8a6a1f;
+    padding: 12px 20px;
+    margin-bottom: 36px;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.couponBar:hover {
+    background: #fff7e0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 430px;
+    gap: 50px;
+    align-items: start;
+}
+
+.sectionTitle {
+    font-family: 'Cinzel', 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #0f1b35;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #0f1b35;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 18px;
+}
+
+.field label {
+    font-size: 13px;
+    color: #333;
+    font-weight: 500;
+}
+
+.field input,
+.field select,
+.field textarea {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 10px 14px;
+    font-size: 14px;
+    color: #222;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+    border-color: #c7a34f;
+    box-shadow: 0 0 0 3px rgba(199, 163, 79, 0.15);
+}
+
+.field textarea {
+    resize: vertical;
+}
+
+.errInput {
+    border-color: #e74c3c !important;
+    box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.12) !important;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.summary {
+    border: 1px solid #e0d5c4;
+    border-radius: 4px;
+    padding: 28px 24px;
+    background: #fafaf8;
+    position: sticky;
+    top: 100px;
+}
+
+.summaryTitle {
+    font-family: 'Cinzel', 'Times New Roman', serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: #0f1b35;
+    text-align: center;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #0f1b35;
+    margin-bottom: 16px;
+}
+
+.summaryHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.summaryItems {
+    margin-bottom: 8px;
+}
+
+.summaryRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0ebe0;
+    gap: 10px;
+}
+
+.itemInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+.itemTitle {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.itemQty {
+    font-size: 12px;
+    color: #c7a34f;
+    margin: 4px 0 0;
+}
+
+.itemRowTotal {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0f1b35;
+    white-space: nowrap;
+}
+
+.summaryLine {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eddfc2;
+    color: #444;
+}
+
+.totalLine {
+    font-size: 17px;
+    font-weight: 700;
+    color: #0f1b35;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* ── Payment ── */
+.paymentBlock {
+    background: #fff;
+    border: 1px solid #e8dfc8;
+    border-radius: 4px;
+    padding: 16px 18px;
+    margin: 20px 0;
+}
+
+.radioLabel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    cursor: pointer;
+}
+
+.radioLabel input[type='radio'] {
+    accent-color: #0f1b35;
+    width: 16px;
+    height: 16px;
+}
+
+.paymentHint {
+    font-size: 12px;
+    color: #777;
+    margin: 8px 0 0 26px;
+    line-height: 1.6;
+}
+
+.placeOrderBtn {
+    width: 100%;
+    background: #0f1b35;
+    color: #fff;
+    border: none;
+    padding: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background 0.25s, transform 0.15s;
+}
+
+.placeOrderBtn:hover {
+    background: #1a2e55;
+    transform: translateY(-2px);
+}
+
+.placeOrderBtn:active {
+    transform: translateY(0);
+}
+
+.successWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 40px 20px;
+}
+
+.successCard {
+    text-align: center;
+    max-width: 480px;
+    padding: 50px 40px;
+    border: 1px solid #e0d5c4;
+    border-radius: 8px;
+    background: #fafaf8;
+    box-shadow: 0 8px 40px rgba(15, 27, 53, 0.08);
+}
+
+.successIcon {
+    width: 72px;
+    height: 72px;
+    background: linear-gradient(135deg, #c7a34f, #e9c87b);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #fff;
+    margin: 0 auto 24px;
+    box-shadow: 0 6px 20px rgba(199, 163, 79, 0.35);
+}
+
+.successCard h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    color: #0f1b35;
+    margin-bottom: 12px;
+}
+
+.successCard p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 28px;
+}
+
+.backBtn {
+    background: #0f1b35;
+    color: #fff;
+    border: none;
+    padding: 14px 36px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background 0.2s;
+}
+
+.backBtn:hover {
+    background: #c7a34f;
+}
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .summary {
+        position: static;
+    }
+}
+
+@media (max-width: 540px) {
+    .row2 {
+        grid-template-columns: 1fr;
+    }
+
+    .page {
+        padding: 20px 14px 60px;
+    }
+}

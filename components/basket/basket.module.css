@@ -1,0 +1,161 @@
+
+.basket {
+    position: fixed;
+    top: 0;
+    right: -100%; 
+    width: 400px;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    transition: right 0.4s ease-in-out;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+}
+
+.basket.active {
+    right: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.head h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.head svg {
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.head svg:hover {
+    transform: translateX(5px);
+}
+
+.orderList {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.order {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.content {
+    flex: 1;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title h2 {
+    font-size: 0.9rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+.bottomSide {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.action button {
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.action span {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.priceBox p {
+    margin: 2px 0;
+    font-size: 0.85rem;
+}
+
+.totalContainer {
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #eee;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.total p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.buyButton {
+    width: 100%;
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.buyButton:hover {
+    background-color: #333;
+}
+
+
+@media (max-width: 800px) {
+    .basket {
+        width: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .basket {
+        width: 100%; 
+    }
+    
+    .head h2 {
+        font-size: 1rem;
+    }
+
+    .order {
+        flex-direction: row;
+        align-items: center;
+    }
+}

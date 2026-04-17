@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+    outline: none;
+    transition: var(--transition);
+}
+
+.input:focus {
+    border-color: var(--gold-hover);
+    background-color: var(--white);
+    box-shadow: 0 0 5px rgba(192, 167, 112, 0.2);
+}
+
+.forgotPass {
+    color: var(--main-bg);
+    font-size: 14px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: var(--transition);
+}
+
+.forgotPass:hover {
+    color: var(--gold-hover);
+    text-decoration: underline;
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 14px;
+    background-color: var(--main-bg);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: var(--transition);
+}
+
+.submitBtn:hover {
+    background-color: var(--gold-hover);
+    transform: translateY(-2px);
+}

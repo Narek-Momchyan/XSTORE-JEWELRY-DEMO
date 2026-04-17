@@ -1,0 +1,323 @@
+
+
+.header {
+  background-color: var(--main-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+  color: var(--white);
+  width: 100%;
+  gap: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+.logoTitle1 {
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  line-height: 1;
+}
+
+.logoTitle2 {
+  font-size: 11px;
+  letter-spacing: 8px;
+  margin-top: 5px;
+  opacity: 0.9;
+}
+
+/* --- Երկրորդ տող (Navigation & Icons) --- */
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+}
+
+.leftSection, .rightSection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.rightSection {
+  justify-content: flex-end;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.link {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: var(--gold-hover);
+}
+
+/* --- Search --- */
+.search {
+  width: 120px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  color: var(--white);
+  padding: 4px 8px;
+  font-size: 13px;
+  outline: none;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.search:focus {
+  width: 160px;
+  border-bottom: 1px solid var(--gold-hover);
+}
+
+.search::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 10px;
+}
+
+.login, .heart, .Cart {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.search:hover, .login:hover, .heart:hover, .Cart:hover {
+  color: var(--gold-hover);
+}
+
+/* --- Languages Dropdown --- */
+.drop_btn {
+  position: relative;
+}
+
+.globus {
+  width: 22px;
+  cursor: pointer;
+}
+
+.drop_content {
+  display: none;
+  position: absolute;
+  background-color: var(--main-bg);
+  top: 100%;
+  right: 0;
+  text-transform: uppercase;
+  min-width: 90px;
+  font-weight: 500;
+  z-index: 100;
+  border: 1px solid rgba(192, 167, 112, 0.2);
+}
+
+.drop_btn:hover .drop_content {
+  display: block;
+}
+
+.leng {
+  padding: 10px;
+  color: var(--white);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.leng:hover {
+  background-color: var(--gold-hover);
+  color: var(--main-bg);
+}
+
+/* --- Mobile Menu (Side Panel) --- */
+.burgerIcon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 280px;
+  height: 100vh;
+  background-color: var(--main-bg);
+  z-index: 2000;
+  transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 5px 0 15px rgba(0,0,0,0.5);
+}
+
+.menuActive {
+  left: 0;
+}
+
+.menuHeader {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.closeIcon {
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileLink {
+  color: white;
+  text-decoration: none;
+  padding: 18px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1999;
+  backdrop-filter: blur(3px);
+}
+
+.counterWrapper {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.counterWrapper:hover {
+    transform: scale(1.1);
+}
+
+.heart {
+    font-size: 1.4rem;
+    color: white; 
+}
+
+.badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #ef4444; 
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+
+@media (max-width: 800px) {
+  .header {
+    padding: 15px 20px;
+  }
+  .navbar {
+    display: none;
+  }
+  .burgerIcon {
+    display: block; 
+  }
+  .logoTitle1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header {
+    padding: 10px 15px;
+    gap: 10px;
+  }
+  .logoTitle1 {
+    font-size: 26px;
+  }
+  .leftSection, .rightSection {
+    gap: 12px;
+  }
+  .search {
+    width: 90px;
+  }
+}
+
+@media (max-width: 450px) {
+  .logoTitle1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .logoTitle2 {
+    display: none;
+  }
+  .leftSection, .rightSection {
+    gap: 8px; 
+  }
+  .search {
+    width: 60px;
+    font-size: 11px;
+  }
+  .search:focus {
+    width: 80px;
+  }
+  .login, .heart, .Cart, .burgerIcon {
+    font-size: 18px;
+  }
+  .globus {
+    width: 18px;
+  }
+
+  .mobileLink, .login, .heart, .Cart, .burgerIcon, .search, .leng, .link {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+    outline: none;
+  }
+}
